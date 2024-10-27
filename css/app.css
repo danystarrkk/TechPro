@@ -15,11 +15,13 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
+
 body {
   font-size: 1.6rem;
   line-height: 1.5;
@@ -71,8 +73,10 @@ img {
 .degradado-verde {
   color: transparent;
   background: linear-gradient(to right, var(--primario) 0%, var(--secundario) 100%);
-  -webkit-background-clip: text; /*Degradado en el texto*/
-  background-clip: text; /*Degradado en el texto*/
+  -webkit-background-clip: text;
+  /*Degradado en el texto*/
+  background-clip: text;
+  /*Degradado en el texto*/
 }
 
 /*Header*/
@@ -268,6 +272,7 @@ img {
   font-weight: 900;
   line-height: 0;
 }
+
 .producto {
   background-color: var(--grisClaro);
   margin-bottom: 2rem;
